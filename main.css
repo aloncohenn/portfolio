@@ -1,0 +1,410 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'eurostile', sans-serif;
+  color: #293347;
+}
+
+/* Nav Bar */
+.nav {
+  background-color: #fff;
+  color: #fff;
+  text-align: right;
+  min-height: 70px;
+  line-height: 70px;
+  margin-bottom: 30px;
+}
+
+.menu a {
+  font-size: 1.5rem;
+  color: #8c43ff;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 10px;
+  line-height: 70px;
+  clear: right;
+  border: 3px solid #8c43ff;
+  border-radius: 8px;
+}
+
+.menu a:hover,
+.menu a:focus {
+  background-color: #8c43ff;
+  color: #fff;
+}
+
+.nav label {
+  margin: 0 40px 0 0;
+  font-size: 2rem;
+  line-height: 70px;
+  display: none;
+  width: 2rem;
+  float: right;
+}
+
+#toggle {
+  display: none;
+}
+
+/* Home Page */
+
+.home-page {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.home-page h1 {
+  font-size: 2.5rem;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.bar {
+  width: 80%;
+  height: 15px;
+  border-radius: 8px;
+  background-color: #8c43ff;
+  margin-bottom: 20px;
+}
+
+.bar-2 {
+  width: 80%;
+  height: 15px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #8c43ff;
+  position: relative;
+  top: 100px;
+}
+
+.home-page h2 {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+.home-page h2 span {
+  color: #8c43ff;
+}
+.home-portrait {
+  border-radius: 50%;
+  height: 320px;
+  width: 320px;
+  margin-bottom: 30px;
+}
+
+.home-img {
+  width: 80%;
+}
+
+/* About Page */
+.about-page {
+  background-color: #8c43ff;
+  color: #fff;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-page h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 100px;
+  font-size: 2rem;
+}
+
+.about-page p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  padding-bottom: 100px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: center;
+  max-width: 840px;
+}
+
+/* Work Page */
+
+.work-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  flex: 1 0 calc(33.333%);
+}
+
+.my-work h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 85px;
+  margin-bottom: 60px;
+}
+
+.my-work span {
+  color: #8c43ff;
+}
+
+.image-container {
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: #8c43ff;
+  min-width: 350px;
+  max-width: 450px;
+}
+
+.project-image {
+  height: 300px;
+  max-width: 450px;
+  border-radius: 8px;
+}
+
+.image-container h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.image-container h3 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.lang-icons i {
+  font-size: 4rem;
+  color: #fff;
+  height: 100px;
+  width: 25%;
+}
+
+.btn-project {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  border: 3px solid #fff;
+  margin-right: 30px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.btn-github {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  border: 3px solid #fff;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.btn-project:hover,
+.btn-github:hover,
+.btn-project:focus,
+.btn-github:focus {
+  background-color: #fff;
+  color: #293347;
+  transition: 0.3s ease-out;
+}
+
+/* Contact Page */
+.contact-me {
+  background-color: #8c43ff;
+  margin-top: 200px;
+  padding: 50px;
+  font-family: 'europa', sans-serif;
+}
+
+.boxes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.icons {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.icons i {
+  color: #fff;
+  font-size: 3rem;
+}
+
+.icons i:hover {
+  color: #293347;
+  transition: 0.4s ease-out;
+}
+
+.contact-me h1 {
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.boxes a {
+  border: 3px solid #fff;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 18px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: normal;
+  background-color: #8c43ff;
+  color: #fff;
+  min-width: 350px;
+}
+
+.boxes a span {
+  font-weight: 400;
+}
+
+.boxes a:hover,
+.boxes a:focus {
+  background-color: #fff;
+  color: #293347;
+  transition: 0.4s ease-out;
+}
+
+/* Scroll to Top Button && Scrollbar */
+#scroll-button {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #8c43ff;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+#scroll-button i {
+  font-size: 2rem;
+  background-color: #8c43ff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+#scroll-button:hover,
+#scroll-button i:hover,
+#scroll-button:focus,
+#scroll-button i:focus {
+  background-color: #293347;
+  color: #fff;
+}
+
+.quote h1 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  max-width: 320px;
+  padding-top: 80px;
+  margin: 1rem auto;
+}
+
+/* Footer */
+
+#main-footer {
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #8c43ff;
+  color: #fff;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 725px) {
+  .nav label {
+    display: block;
+    cursor: pointer;
+    color: #8c43ff;
+  }
+
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .menu a {
+    display: block;
+    margin: 10px;
+  }
+
+  #toggle:checked + .menu {
+    display: block;
+  }
+
+  .home-page h1 {
+    font-size: 1.4rem;
+  }
+
+  .home-page h2 {
+    font-size: 1rem;
+  }
+
+  .home-portrait {
+    height: 200px;
+    width: 200px;
+  }
+
+  .about-page h1 {
+    font-size: 1.4rem;
+  }
+
+  .about-page p {
+    font-size: 1rem;
+  }
+
+  .my-work img {
+    height: 250px;
+  }
+
+  .my-work h1 {
+    font-size: 2rem;
+  }
+
+  .image-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .icons i {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .lang-icons i {
+    font-size: 2.8rem;
+  }
+
+  .contact-me h1 {
+    font-size: 2rem;
+  }
+
+  .quote h1 {
+    font-size: 1.2rem;
+  }
+}
